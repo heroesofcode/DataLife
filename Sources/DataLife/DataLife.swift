@@ -1,6 +1,6 @@
 public class DataLife<T> {
 
-    typealias CompletionHandler = ((T) -> Void)
+    public typealias CompletionHandler = ((T) -> Void)
 
     public var value : T? {
         didSet {

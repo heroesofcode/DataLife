@@ -8,8 +8,9 @@
 import Foundation
 
 public class DataLifeViewModel: ObserverProtocol {
-var id: Int = 0
+    public var id: Int = 0
 
-func onValueChanged(_ value: Any?) {
-    //empty
+    public func onValueChanged(_ value: Any?) {
+        //empty
+    }
 }

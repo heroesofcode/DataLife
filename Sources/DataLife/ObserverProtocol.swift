@@ -7,7 +7,7 @@
 
 import Foundation
 
-internal protocol ObserverProtocol {
+public protocol ObserverProtocol {
     var id : Int { get set }
     func onValueChanged(_ value: Any?)
 }
