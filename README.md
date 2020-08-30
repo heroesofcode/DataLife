@@ -66,7 +66,7 @@ import DataLife
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.0.3"))
+    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.0.4"))
 ]
 ```
 
