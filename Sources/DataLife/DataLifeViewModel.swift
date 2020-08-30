@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class DataLifeViewModel: ObserverProtocol {
+open class DataLifeViewModel: ObserverProtocol {
     public var id: Int = 0
 
     public func onValueChanged(_ value: Any?) {
