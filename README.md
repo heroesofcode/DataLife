@@ -3,6 +3,7 @@
 </p>
 
 [![CI](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml)
+[![codecov](https://codecov.io/gh/heroesofcode/DataLife/branch/master/graph/badge.svg?token=SCDPQL6N5N)](https://codecov.io/gh/heroesofcode/DataLife)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/DataLife.svg)](https://cocoapods.org/pods/DataLife)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
