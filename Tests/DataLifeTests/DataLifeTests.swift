@@ -2,13 +2,22 @@ import XCTest
 @testable import DataLife
 
 final class DataLifeTests: XCTestCase {
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
+    
+    func testVerifyObserverNameWithSuccess() {
+        var getName = ""
+        
+        let viewModel = ViewModel()
+        
+        viewModel.myName.observer(viewModel) { name in
+            getName = name
+        }
+        
+        viewModel.getMyName()
+        
+        XCTAssertEqual(getName, "João Lucas")
     }
 
     static var allTests = [
-        ("testExample", testExample)
+        ("testVerifyObserverNameWithSuccess", testVerifyObserverNameWithSuccess)
     ]
 }

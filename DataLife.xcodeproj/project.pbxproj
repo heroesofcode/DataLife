@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A6B0434626750DAD00A3620C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0434526750DAD00A3620C /* ViewModel.swift */; };
 		OBJ_28 /* DataLife.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DataLife.swift */; };
 		OBJ_29 /* DataLifeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DataLifeViewModel.swift */; };
 		OBJ_30 /* ObserverProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* ObserverProtocol.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6B0434526750DAD00A3620C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		"DataLife::DataLife::Product" /* DataLife.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DataLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"DataLife::DataLifeTests::Product" /* DataLifeTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = DataLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_10 /* DataLifeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLifeViewModel.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			children = (
 				OBJ_14 /* DataLifeTests.swift */,
 				OBJ_15 /* XCTestManifests.swift */,
+				A6B0434526750DAD00A3620C /* ViewModel.swift */,
 			);
 			name = DataLifeTests;
 			path = Tests/DataLifeTests;
@@ -267,6 +270,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_48 /* DataLifeTests.swift in Sources */,
+				A6B0434626750DAD00A3620C /* ViewModel.swift in Sources */,
 				OBJ_49 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
