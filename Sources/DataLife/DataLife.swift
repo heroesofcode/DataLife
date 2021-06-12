@@ -26,4 +26,3 @@ public class DataLife<T> {
         observers.removeAll()
     }
 }
-
