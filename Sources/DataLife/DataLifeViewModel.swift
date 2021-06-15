@@ -1,10 +1,3 @@
-//
-//  File.swift
-//  
-//
-//  Created by Joao Lucas on 29/08/20.
-//
-
 import Foundation
 
 open class DataLifeViewModel: ObserverProtocol {
