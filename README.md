@@ -60,8 +60,9 @@ class ViewController: UIViewController {
 
 ## Installation
 
-### Swift Package Manager
-
+<details>
+  <summary><strong>Swift Package Manager</strong></summary>
+    
 ```swift
 import DataLife
 ```
@@ -71,8 +72,10 @@ dependencies: [
     .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.0.4"))
 ]
 ```
+</details>
 
-### Cocoapods
+<details>
+  <summary><strong>CocoaPods</strong></summary>
 
 ```swift
 import DataLife
@@ -87,7 +90,8 @@ end
 ```bash
 $ pod install
 ```
-
+</details>
+    
 ## Author
 Coded by João Lucas
 
