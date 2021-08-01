@@ -93,7 +93,7 @@ $ pod install
 </details>
     
 ## Author
-Coded by João Lucas
+Coded by [João Lucas](https://github.com/joaolfp)
 
 ## License
 
