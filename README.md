@@ -6,6 +6,7 @@
 [![codecov](https://codecov.io/gh/heroesofcode/DataLife/branch/master/graph/badge.svg?token=SCDPQL6N5N)](https://codecov.io/gh/heroesofcode/DataLife)
 [![Swift Version](https://img.shields.io/badge/Swift-5.0.x-orange.svg)]()
 [![Cocoapods compatible](https://img.shields.io/cocoapods/v/DataLife.svg)](https://cocoapods.org/pods/DataLife)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager)
 [![License](https://img.shields.io/github/license/joaolfp/ViewState.svg)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
@@ -89,6 +90,14 @@ end
 
 ```bash
 $ pod install
+```
+</details>
+    
+<details>
+  <summary><strong>Carthage</strong></summary>
+    
+```bash
+github "heroesofcode/DataLife"
 ```
 </details>
     
