@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'DataLife'
   s.version          = '1.0.5'
   s.summary          = 'DataLife is an observable data storage class'
-  s.homepage         = 'https://github.com/joaolfp/DataLife'
+  s.homepage         = 'https://github.com/heroesofcode/DataLife.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'João Lucas' => 'joaolucasfp2001@gmail.com' }
   s.social_media_url = 'https://twitter.com/joaolfp'
