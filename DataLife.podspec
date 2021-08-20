@@ -8,18 +8,18 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DataLife'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'DataLife is an observable data storage class'
   s.homepage         = 'https://github.com/joaolfp/DataLife'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'João Lucas' => 'joaolucasfp2001@gmail.com' }
-  s.social_media_url = 'https://twitter.com/lucasfp2001'
+  s.social_media_url = 'https://twitter.com/joaolfp'
   s.requires_arc     = true
   s.frameworks       = 'UIKit'
 
   s.swift_versions   = ['5.0', '5.1']
   s.ios.deployment_target = '9.0'
 
-  s.source           = { :git => 'https://github.com/joaolfp/DataLife.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/heroesofcode/DataLife.git', :tag => s.version.to_s }
   s.source_files     = 'Sources/DataLife/**/*'
 end
