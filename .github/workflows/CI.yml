@@ -17,9 +17,6 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_12.4.app
       
-    - name: Xcode version
-      run: /usr/bin/xcodebuild -version
-      
     - name: Bundle install
       run: bundle install
       
