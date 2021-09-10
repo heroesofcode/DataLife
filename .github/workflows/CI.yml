@@ -25,7 +25,6 @@ jobs:
       
     - name: Build and Tests
       run: exec ./.github/scripts/test_app.sh
-      shell: bash
       
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1.5.2
