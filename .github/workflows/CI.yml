@@ -24,9 +24,7 @@ jobs:
       run: bundle install
       
     - name: Build and Tests
-      run: chmod +x ./.github/scripts/test_app.sh 
-           |
-           exec ./.github/scripts/test_app.sh
+      run: exec ./.github/scripts/test_app.sh
       
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1.5.2
