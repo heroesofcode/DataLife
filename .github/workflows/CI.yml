@@ -24,7 +24,8 @@ jobs:
       run: bundle install
       
     - name: Build and Tests
-      run: set -o pipefail && xcodebuild -project DataLife.xcodeproj -scheme "DataLife-Package" -destination "platform=iOS Simulator,name=iPhone 8" clean test | xcpretty
+      run: exec ./.github/scripts/test_app.sh
+      shell: bash
       
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1.5.2
