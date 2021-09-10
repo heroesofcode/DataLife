@@ -17,11 +17,14 @@ jobs:
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode_12.4.app
       
+    - name: Xcode version
+      run: /usr/bin/xcodebuild -version
+      
     - name: Bundle install
       run: bundle install
       
     - name: Build and Tests
-      run: exec ./.github/scripts/test_app.sh
+      run: set -o pipefail && xcodebuild -project DataLife.xcodeproj -scheme "DataLife-Package" -destination "platform=iOS Simulator,name=iPhone 8" clean test | xcpretty
       
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1.5.2
