@@ -1,5 +1,3 @@
-
-   
 test:
 	set -o pipefail
 	xcodebuild -project DataLife.xcodeproj \
