@@ -15,6 +15,9 @@
 
 DataLife is an observable data storage class
 
+## Support
+<img src="https://img.shields.io/cocoapods/p/DataLife.svg?style=flat">
+
 ## How to use?
 
 - In ViewModel inherit from DataLifeViewModel and create a variable that will be the result value.
@@ -27,7 +30,7 @@ class ViewModel: DataLifeViewModel {
     var myName = DataLife<String>()
     
     func fetchMyName() {
-        myName.value = "João Lucas"
+        myName.value = "Darth Vader"
     }
     
 }
@@ -71,7 +74,7 @@ import DataLife
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.0.5"))
+    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.1.5"))
 ]
 ```
 </details>
