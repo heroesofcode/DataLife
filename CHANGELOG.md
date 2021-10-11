@@ -3,6 +3,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 1.1.5
+**2021-10-11**
+
+### MacOS Support
+
+- Add support to MacOS
+
 ## Version 1.0.5
 **2021-08-19**
 
