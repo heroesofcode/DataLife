@@ -74,7 +74,7 @@ import DataLife
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.1.5"))
+    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.2.5"))
 ]
 ```
 </details>

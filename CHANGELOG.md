@@ -3,6 +3,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Version 1.2.5
+**2021-11-18**
+
+- Add support to tvOS
+- Adjustment and correction of public methods
+
 ## Version 1.1.5
 **2021-10-11**
 
