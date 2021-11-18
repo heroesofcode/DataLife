@@ -8,7 +8,7 @@ public class DataLife<T> {
         }
     }
 
-    var observers : [Int : CompletionHandler] = [:]
+    private var observers : [Int : CompletionHandler] = [:]
 
     public init() {}
 
@@ -16,7 +16,7 @@ public class DataLife<T> {
         self.observers[observer.id] = completion
     }
     
-    func notifyObservers(_ observers: [Int : CompletionHandler]) {
+    private func notifyObservers(_ observers: [Int : CompletionHandler]) {
         if value != nil {
             observers.forEach({ $0.value(value!) })
         }

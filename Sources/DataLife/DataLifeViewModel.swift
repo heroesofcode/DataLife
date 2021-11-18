@@ -5,7 +5,5 @@ open class DataLifeViewModel: ObserverProtocol {
     
     public init() {}
 
-    public func onValueChanged(_ value: Any?) {
-//        empty
-    }
+    public func onValueChanged(_ value: Any?) {}
 }
