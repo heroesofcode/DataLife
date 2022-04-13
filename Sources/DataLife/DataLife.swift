@@ -2,13 +2,13 @@ public class DataLife<T> {
 
     public typealias CompletionHandler = ((T) -> Void)
 
-    public var value : T? {
+    public var value: T? {
         didSet {
             self.notifyObservers(self.observers)
         }
     }
 
-    private var observers : [Int : CompletionHandler] = [:]
+    private var observers: [Int: CompletionHandler] = [:]
 
     public init() {}
 
@@ -16,7 +16,7 @@ public class DataLife<T> {
         self.observers[observer.id] = completion
     }
     
-    private func notifyObservers(_ observers: [Int : CompletionHandler]) {
+    private func notifyObservers(_ observers: [Int: CompletionHandler]) {
         if value != nil {
             observers.forEach({ $0.value(value!) })
         }
