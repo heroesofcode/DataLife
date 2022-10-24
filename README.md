@@ -16,7 +16,7 @@
 DataLife is an observable data storage class
 
 ## Support
-<img src="https://img.shields.io/cocoapods/p/DataLife.svg?style=flat">
+iOS / tvOS / macOS
 
 ## How to use?
 
