@@ -65,26 +65,7 @@ class ViewController: UIViewController {
 
 ## Installation
 
-<details>
-  <summary><strong>Swift Package Manager</strong></summary>
-    
-```swift
-import DataLife
-```
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.2.5"))
-]
-```
-</details>
-
-<details>
-  <summary><strong>CocoaPods</strong></summary>
-
-```swift
-import DataLife
-```
+### [CocoaPods](https://cocoapods.org)
 
 ```ruby
 target '<Your Target Name>' do
@@ -92,18 +73,24 @@ target '<Your Target Name>' do
 end
 ```
 
+After run
 ```bash
 $ pod install
 ```
-</details>
-    
-<details>
-  <summary><strong>Carthage</strong></summary>
-    
-```bash
+
+### [Swift Package Manager (SPM)](https://swift.org/package-manager)
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.2.5"))
+]
+```
+
+### [Carthage](https://github.com/Carthage/Carthage)
+
+```
 github "heroesofcode/DataLife"
 ```
-</details>
     
 ## Author
 Coded by [João Lucas](https://github.com/joaolfp)
