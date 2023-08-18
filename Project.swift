@@ -26,5 +26,6 @@ let tests =  Target(
 
 let project = Project(
     name: "DataLife",
-    targets: [dataLife, tests]
+    targets: [dataLife, tests],
+    schemes: Project.schemes()
 )
