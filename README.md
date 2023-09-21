@@ -4,8 +4,6 @@
 
 [![CI](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/heroesofcode/DataLife/branch/master/graph/badge.svg?token=SCDPQL6N5N)](https://codecov.io/gh/heroesofcode/DataLife)
-[![Cocoapods compatible](https://img.shields.io/cocoapods/v/DataLife.svg)](https://cocoapods.org/pods/DataLife)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager/)
 [![GitHub](https://img.shields.io/github/license/heroesofcode/DataLife)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
