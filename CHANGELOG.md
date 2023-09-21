@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## Version 1.3.0
+**2023-09-21**
+
+- Support for CocoaPods and Carthage has been obsoleted. No new releases will be available on those platforms, starting with 1.3.0. Please use the Swift Package Manager to depend on DataLife.
+- DataLife now requires iOS 12+, macOS 10.13+ and tvOS 12+.
+
 ## Version 1.2.5
 **2021-11-18**
 

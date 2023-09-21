@@ -64,9 +64,18 @@ class ViewController: UIViewController {
 ### [Swift Package Manager (SPM)](https://swift.org/package-manager)
 
 ```swift
-dependencies: [
-    .package(url: "https://github.com/joaolfp/DataLife.git", .upToNextMajor(from: "1.2.5"))
-]
+import PackageDescription
+let package = Package(
+    name: "<Your Product Name>",
+    dependencies: [
+       .package(url: "https://github.com/heroesofcode/DataLife", .upToNextMajor(from: "1.3.0"))
+    ],
+    targets: [
+        .target(
+            name: "<Your Target Name>",
+            dependencies: ["DataLife"]),
+    ]
+)
 ```
 
 ## Contributing
