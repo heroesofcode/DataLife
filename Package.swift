@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "DataLife",
-    platforms: [.iOS(.v9), .macOS(.v10_11), .tvOS(.v9)],
+    platforms: [.iOS(.v12), .macOS(.v10_13), .tvOS(.v12)],
     products: [
         .library(
             name: "DataLife",
