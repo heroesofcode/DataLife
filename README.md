@@ -13,9 +13,6 @@
 
 DataLife is an observable data storage class
 
-## Support
-iOS / tvOS / macOS
-
 ## Usage
 
 - In ViewModel inherit from DataLifeViewModel and create a variable that will be the result value.
