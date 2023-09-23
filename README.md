@@ -5,6 +5,8 @@
 [![CI](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml)
 [![codecov](https://codecov.io/gh/heroesofcode/DataLife/branch/master/graph/badge.svg?token=SCDPQL6N5N)](https://codecov.io/gh/heroesofcode/DataLife)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-brightgreen)](https://swift.org/package-manager/)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fheroesofcode%2FDataLife%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/heroesofcode/DataLife)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fheroesofcode%2FDataLife%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/heroesofcode/DataLife)
 [![GitHub](https://img.shields.io/github/license/heroesofcode/DataLife)](https://github.com/joaolfp/DataLife/blob/master/LICENSE)
 
 ## Overview
