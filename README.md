@@ -20,7 +20,7 @@ DataLife is an observable data storage class
 ```swift
 import DataLife
 
-class ViewModel: DataLifeViewModel {
+final class ViewModel: DataLifeViewModel {
     
     var myName = DataLife<String>()
     
@@ -35,10 +35,12 @@ class ViewModel: DataLifeViewModel {
 ``` swift
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    
+    @IBOutlet weak var nameLabel: UILabel!
     
     private let viewModel = ViewModel()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -51,8 +53,8 @@ class ViewController: UIViewController {
     }
     
     private func setupState() {
-        viewModel.myName.observer(viewModel) { name in
-            print(name)
+        viewModel.myName.observer(viewModel) { [weak self] name in
+            self?.nameLabel.text = name
         }
     }
 }
