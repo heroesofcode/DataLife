@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 1.4.0
+**2023-10-07**
+
+- watchOS Support
+
 ## Version 1.3.0
 **2023-09-21**
 
