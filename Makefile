@@ -8,16 +8,16 @@ test-macos:
 	set -o pipefail && \
 	xcodebuild test \
 		-scheme DataLife \
-		-destination platform="macOS" clean test | xcpretty
+		-destination "platform=macOS" clean test | xcpretty
 
 test-tvos:
 	set -o pipefail && \
 	xcodebuild test \
 		-scheme DataLife \
-		-destination platform="tvOS Simulator,name=Apple TV 4K" clean test | xcpretty
+		-destination "platform=tvOS Simulator,name=Apple TV 4K" clean test | xcpretty
 
 test-watchos:
 	set -o pipefail && \
 	xcodebuild test \
 		-scheme DataLife \
-		-destination platform="watchOS Simulator,name=Apple Watch Series 8 (41mm)" clean test | xcpretty
+		-destination "platform=watchOS Simulator,name=Apple Watch Series 8 (41mm)" clean test | xcpretty
