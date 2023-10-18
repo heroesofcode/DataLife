@@ -13,8 +13,8 @@
 		C5318F472AD0EA9300D68D22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5318F452AD0EA9300D68D22 /* Main.storyboard */; };
 		C5318F492AD0EA9400D68D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5318F482AD0EA9400D68D22 /* Assets.xcassets */; };
 		C5318F4C2AD0EA9400D68D22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5318F4A2AD0EA9400D68D22 /* LaunchScreen.storyboard */; };
-		C5318F552AD0EB4800D68D22 /* DataLife in Frameworks */ = {isa = PBXBuildFile; productRef = C5318F542AD0EB4800D68D22 /* DataLife */; };
 		C5318F572AD0EB9200D68D22 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5318F562AD0EB9200D68D22 /* ViewModel.swift */; };
+		C55CD1342ADF77BE00EA6D5C /* DataLife in Frameworks */ = {isa = PBXBuildFile; productRef = C55CD1332ADF77BE00EA6D5C /* DataLife */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +27,7 @@
 		C5318F4B2AD0EA9400D68D22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5318F4D2AD0EA9400D68D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5318F562AD0EB9200D68D22 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C55CD1322ADF77B800EA6D5C /* DataLife */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DataLife; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5318F552AD0EB4800D68D22 /* DataLife in Frameworks */,
+				C55CD1342ADF77BE00EA6D5C /* DataLife in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +47,7 @@
 			children = (
 				C5318F3E2AD0EA9300D68D22 /* Example */,
 				C5318F3D2AD0EA9300D68D22 /* Products */,
+				C55CD1312ADF77B800EA6D5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +74,14 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		C55CD1312ADF77B800EA6D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55CD1322ADF77B800EA6D5C /* DataLife */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,7 +99,7 @@
 			);
 			name = Example;
 			packageProductDependencies = (
-				C5318F542AD0EB4800D68D22 /* DataLife */,
+				C55CD1332ADF77BE00EA6D5C /* DataLife */,
 			);
 			productName = Example;
 			productReference = C5318F3C2AD0EA9300D68D22 /* Example.app */;
@@ -120,7 +130,6 @@
 			);
 			mainGroup = C5318F332AD0EA9300D68D22;
 			packageReferences = (
-				C5318F532AD0EB4800D68D22 /* XCRemoteSwiftPackageReference "DataLife" */,
 			);
 			productRefGroup = C5318F3D2AD0EA9300D68D22 /* Products */;
 			projectDirPath = "";
@@ -382,21 +391,9 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		C5318F532AD0EB4800D68D22 /* XCRemoteSwiftPackageReference "DataLife" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/heroesofcode/DataLife";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		C5318F542AD0EB4800D68D22 /* DataLife */ = {
+		C55CD1332ADF77BE00EA6D5C /* DataLife */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = C5318F532AD0EB4800D68D22 /* XCRemoteSwiftPackageReference "DataLife" */;
 			productName = DataLife;
 		};
 /* End XCSwiftPackageProductDependency section */
