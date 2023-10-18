@@ -18,7 +18,8 @@ public class DataLife<T> {
     
     private func notifyObservers(_ observers: [Int: CompletionHandler]) {
         if value != nil {
-            observers.forEach({ $0.value(value!) })
+            guard let value = value else { return }
+            observers.forEach({ $0.value(value) })
         }
     }
 
