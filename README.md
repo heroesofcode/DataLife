@@ -82,6 +82,12 @@ let package = Package(
 ## Contributing
 
 To contribute, just fork this project and then open a pull request, feel free to contribute, bring ideas and raise any problem in the issue tab.
+
+## Contributors
+
+<a href="https://github.com/heroesofcode/DataLife/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=heroesofcode/DataLife" />
+</a>
     
 ## License
 
