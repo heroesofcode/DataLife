@@ -91,4 +91,4 @@ To contribute, just fork this project and then open a pull request, feel free to
     
 ## License
 
-DataLife is released under the MIT license. See LICENSE for details.
+DataLife is released under the MIT license. See [LICENSE](https://github.com/heroesofcode/DataLife/blob/master/LICENSE) for details.
