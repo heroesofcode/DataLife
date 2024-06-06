@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/heroesofcode/DataLife/blob/master/.github/assets/logo.png">
+    <img src="https://raw.githubusercontent.com/heroesofcode/DataLife/master/assets/logo.png">
 </p>
 
 [![CI](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml/badge.svg)](https://github.com/heroesofcode/DataLife/actions/workflows/CI.yml)
@@ -83,11 +83,6 @@ let package = Package(
 
 To contribute, just fork this project and then open a pull request, feel free to contribute, bring ideas and raise any problem in the issue tab.
 
-## Contributors
-
-<a href="https://github.com/heroesofcode/DataLife/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=heroesofcode/DataLife" />
-</a>
     
 ## License
 
