@@ -61,7 +61,7 @@ final class ViewController: UIViewController {
 ```
 
 ## Example in Arena Playground
-You can test DataLife using (Arena)(https://github.com/finestructure/Arena)
+You can test DataLife using [Arena](https://github.com/finestructure/Arena)
 
 <img src="https://raw.githubusercontent.com/heroesofcode/DataLife/master/assets/example.png">
 
