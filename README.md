@@ -68,7 +68,7 @@ import PackageDescription
 let package = Package(
     name: "<Your Product Name>",
     dependencies: [
-       .package(url: "https://github.com/heroesofcode/DataLife", .upToNextMajor(from: "1.4.0"))
+       .package(url: "https://github.com/heroesofcode/DataLife", .upToNextMajor(from: "1.5.0"))
     ],
     targets: [
         .target(

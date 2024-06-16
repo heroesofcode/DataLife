@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 1.5.0
+**2024-06-15**
+
+- visionOS Support
+
 ## Version 1.4.0
 **2023-10-07**
 
