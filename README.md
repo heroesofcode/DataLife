@@ -59,6 +59,9 @@ final class ViewController: UIViewController {
 }
 ```
 
+## Demo
+You see the demo [here](https://github.com/heroesofcode/DataLife/tree/master/Example)
+
 ## Installation
 
 ### [Swift Package Manager (SPM)](https://swift.org/package-manager)
