@@ -1,28 +1,42 @@
+import Foundation
+
 public class DataLife<T> {
-
-    public typealias CompletionHandler = ((T) -> Void)
-
+    
+    public typealias CompletionHandler = (T) -> Void
+    
     public var value: T? {
         didSet {
-            self.notifyObservers(self.observers)
+            notifyObservers()
         }
-    }
-
-    private var observers: [Int: CompletionHandler] = [:]
-
-    public init() {}
-
-    public func observer(_ observer: ObserverProtocol, completion: @escaping CompletionHandler) {
-        self.observers[observer.id] = completion
     }
     
-    private func notifyObservers(_ observers: [Int: CompletionHandler]) {
-        if value != nil {
-            guard let value = value else { return }
-            observers.forEach({ $0.value(value) })
+    private var observers: [UUID: CompletionHandler] = [:]
+    private let queue = DispatchQueue(label: "com.myproject.datalife.queue", attributes: .concurrent)
+    
+    public init() {}
+    
+    public func addObserver(_ observer: ObserverProtocol, completion: @escaping CompletionHandler) {
+        let id = UUID()
+        
+        queue.async(flags: .barrier) {
+            self.observers[id] = completion
         }
     }
-
+    
+    public func removeObserver(_ observer: ObserverProtocol) {
+        queue.async(flags: .barrier) {
+            self.observers.removeValue(forKey: observer.id)
+        }
+    }
+    
+    private func notifyObservers() {
+        guard let value = value else { return }
+        
+        queue.sync {
+            self.observers.forEach { $0.value(value) }
+        }
+    }
+    
     deinit {
         observers.removeAll()
     }

@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol ObserverProtocol {
-    var id : Int { get set }
+public protocol ObserverProtocol: AnyObject {
+    var id: UUID { get set }
     func onValueChanged(_ value: Any?)
 }
