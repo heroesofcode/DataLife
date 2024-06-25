@@ -52,7 +52,7 @@ final class ViewController: UIViewController {
     }
     
     private func setupState() {
-        viewModel.myName.observer(viewModel) { [weak self] name in
+        viewModel.myName.addObserver(viewModel) { [weak self] name in
             self?.nameLabel.text = name
         }
     }
