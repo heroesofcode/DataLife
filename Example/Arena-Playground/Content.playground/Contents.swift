@@ -18,7 +18,7 @@ var getName = ""
 
 let viewModel = ViewModel()
 
-viewModel.myName.observer(viewModel) { name in
+viewModel.myName.addObserver(viewModel) { name in
     getName = name
 }
 
