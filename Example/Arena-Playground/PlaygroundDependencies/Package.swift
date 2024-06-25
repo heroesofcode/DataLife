@@ -23,7 +23,7 @@ let package = Package(
 )
 
 package.dependencies = [
-    .package(url: "https://github.com/heroesofcode/DataLife", from: "1.5.0")
+    .package(url: "https://github.com/heroesofcode/DataLife", branch: "master")
 ]
 package.targets = [
     .target(name: "PlaygroundDependencies",
