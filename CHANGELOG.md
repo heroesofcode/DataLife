@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## Version 2.0.0
+**2024-06-25**
+
+- Add improvements - #63
+
 ## Version 1.5.0
 **2024-06-15**
 
