@@ -112,7 +112,7 @@ GEM
       kramdown (~> 2.0)
     liferaft (0.0.6)
     logger (1.6.0)
-    minitest (5.25.0)
+    minitest (5.25.1)
     molinillo (0.4.5)
     mustache (0.99.8)
     nanaimo (0.3.0)
