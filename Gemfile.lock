@@ -133,7 +133,7 @@ GEM
       ffi (~> 1.0)
     rchardet (1.8.0)
     redcarpet (3.6.0)
-    rexml (3.3.5)
+    rexml (3.3.6)
       strscan
     rouge (3.30.0)
     sass (3.7.4)
