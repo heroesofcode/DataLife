@@ -9,7 +9,8 @@ let package = Package(
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "PlaygroundDependencies",
-            targets: ["PlaygroundDependencies"]),
+            targets: ["PlaygroundDependencies"]
+        ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -18,7 +19,8 @@ let package = Package(
             name: "PlaygroundDependencies"),
         .testTarget(
             name: "PlaygroundDependenciesTests",
-            dependencies: ["PlaygroundDependencies"]),
+            dependencies: ["PlaygroundDependencies"]
+        ),
     ]
 )
 
@@ -27,10 +29,9 @@ package.dependencies = [
 ]
 package.targets = [
     .target(name: "PlaygroundDependencies",
-        dependencies: [
-            .product(name: "DataLife", package: "DataLife")
-        ]
-    )
+            dependencies: [
+                .product(name: "DataLife", package: "DataLife")
+            ])
 ]
 package.platforms = [
     .iOS("12.0"),
