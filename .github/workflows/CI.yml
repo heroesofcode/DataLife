@@ -34,7 +34,7 @@ jobs:
       run: make test-watchos
       
     - name: Danger action
-      uses: MeilCli/danger-action@v6.0.13
+      uses: MeilCli/danger-action@v6.0.14
       if: github.event_name == 'pull_request'
       with:
         plugins_file: 'Gemfile'
@@ -45,4 +45,4 @@ jobs:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v4.5.0
+      uses: codecov/codecov-action@v4.6.0
