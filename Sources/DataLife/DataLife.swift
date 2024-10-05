@@ -11,7 +11,7 @@ public class DataLife<T> {
     }
 
     private var observers: [UUID: CompletionHandler] = [:]
-    private let queue = DispatchQueue(label: "com.myproject.datalife.queue", attributes: .concurrent)
+    private let queue = DispatchQueue(label: "datalife.queue", attributes: .concurrent)
 
     public init() {}
 
