@@ -7,7 +7,7 @@ test-ios:
 test-macos:
 	set -o pipefail && \
 		xcodebuild test \
-			-scheme ViewState \
+			-scheme DataLife \
 			-destination "platform=macOS" \
 			clean test | xcpretty
 
