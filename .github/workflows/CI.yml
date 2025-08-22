@@ -28,7 +28,7 @@ jobs:
       run: make test-macos
       
     - name: Danger action
-      uses: MeilCli/danger-action@v6.0.34
+      uses: MeilCli/danger-action@v6.0.35
       if: github.event_name == 'pull_request'
       with:
         plugins_file: 'Gemfile'
@@ -39,4 +39,4 @@ jobs:
         DANGER_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v5.4.3
+      uses: codecov/codecov-action@v5.5.0
