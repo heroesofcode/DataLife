@@ -2,7 +2,7 @@ test-ios:
 	set -o pipefail && \
 		xcodebuild test \
 			-scheme DataLife \
-			-destination "platform=iOS Simulator,name=iPhone 16,OS=18.0" clean test | xcpretty
+			-destination "platform=iOS Simulator,name=iPhone 16,OS=18.5" clean test | xcpretty
 
 test-macos:
 	set -o pipefail && \
