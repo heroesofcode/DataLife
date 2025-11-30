@@ -1,3 +1,7 @@
+> [!WARNING]
+> This project is no longer maintained.  
+> If you want to continue using DataLife, feel free to fork the repository and maintain your own version.
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/heroesofcode/DataLife/master/assets/logo.png">
 </p>
